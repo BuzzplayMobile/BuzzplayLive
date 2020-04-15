@@ -4,6 +4,7 @@ import "./App.css";
 import Toolbar from "./components/toolbar/toolbar";
 import ShowPage from "./pages/show/show-page";
 import HomePage from "./pages/home/home-page";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <HomePage />
           </Route>
         </Switch>
+        <Footer></Footer>
       </div>
     </Router>
   );
