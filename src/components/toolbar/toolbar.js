@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default class Toolbar extends React.Component {
   constructor(props) {
@@ -11,7 +12,9 @@ export default class Toolbar extends React.Component {
   render() {
     return (
       <div className="toolbar">
-        <img src="https://picsum.photos/100/40?random" alt="Logo" className="logo" />
+        <Link to="/">
+          <img src="https://picsum.photos/100/40?random" alt="Logo" className="Buzzplay logo" />
+        </Link>
         <button className="login-button">Login</button>
       </div>
     );

@@ -6,22 +6,134 @@ export default class HomePage extends Component {
   render() {
     // TODO: Get shows from DB
     const upcomingShows = [
-      { id: 0 },
-      { id: 1 },
-      { id: 2 },
-      { id: 3 },
-      { id: 4 },
-      { id: 5 },
-      { id: 6 },
-      { id: 7 },
-      { id: 8 },
-      { id: 9 },
-      { id: 10 },
-      { id: 11 },
-      { id: 12 },
-      { id: 13 },
-      { id: 14 },
-      { id: 15 },
+      {
+        id: 0,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 1,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 2,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 3,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 4,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 5,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 6,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 7,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 8,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 9,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 10,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 11,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 12,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 13,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 14,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
+      {
+        id: 15,
+        imageUrl: "https://unsplash.it/150?random",
+        name: "Bel Biv Devo",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum nisi ut hendrerit tristique.",
+        date: new Date(),
+      },
     ];
     return (
       <>
